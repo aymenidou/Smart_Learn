@@ -1,0 +1,80 @@
+.student-dashboard {
+    .tabs {
+        display: flex;
+        margin-bottom: 20px;
+    }
+
+    .tabs button {
+        padding: 10px 20px;
+        margin-right: 10px;
+        border: none;
+        cursor: pointer;
+        background-color: #ddd;
+        border-radius: 5px;
+    }
+
+    .tabs button.active {
+        background-color: #4caf50;
+        color: white;
+    }
+
+    .tab-content {
+        /* Existing styles */
+    }
+
+
+    h2 {
+        text-align: center;
+        color: #333;
+    }
+
+    .tabs {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 20px;
+    }
+
+    .tabs button {
+        padding: 10px 20px;
+        margin-right: 10px;
+        border: none;
+        cursor: pointer;
+        background-color: #ddd;
+        border-radius: 5px;
+        font-size: 16px;
+    }
+
+    .tabs button.active {
+        background-color: #4caf50;
+        color: white;
+    }
+
+    .tab-content ul {
+        list-style: none;
+        padding: 0;
+    }
+
+    .tab-content li {
+        background-color: #f4f4f4;
+        margin: 10px 0;
+        padding: 15px;
+        border-radius: 5px;
+    }
+
+    .tab-content strong {
+        color: #333;
+    }
+
+    .tab-content li:hover {
+        background-color: #e0e0e0;
+    }
+}
+
+.student-dashboard {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}

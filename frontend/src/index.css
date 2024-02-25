@@ -1,0 +1,213 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #ff9900!important;
+}
+
+.header {
+  background-color: #333;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  z-index: 1;
+}
+
+.search-bar {
+  display: flex;
+  align-items: center;
+}
+
+.search-bar input {
+  padding: 8px;
+  margin-right: 10px;
+}
+
+.search-bar button {
+  padding: 8px 12px;
+  background-color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.user-profile button {
+  padding: 8px 12px;
+  background-color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.course-row {
+  margin: 20px;
+  background-color: #eee;
+  padding: 10px;
+}
+
+.course-row h2 {
+  color: #333;
+}
+
+.course-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.course-item {
+  margin: 10px;
+  text-align: center;
+}
+
+.course-item img {
+  width: 100%;
+  max-height: 150px;
+  object-fit: cover;
+}
+
+.course-item p {
+  margin-top: 5px;
+}
+
+.btn-apply {
+  background-color: #ddd;
+  border: 1px solid;
+  padding: 5px;
+  transition: background-color 0.3s;
+}
+
+.btn-apply:hover {
+  background-color: #bbb;
+  color: #333;
+}
+
+.hero-container {
+  position: relative;
+  height: 500px;
+  /* Adjust height as needed */
+  background: url('/public/images/hero/hero1.jpg') center/cover no-repeat;
+  /* Replace with your hero image */
+  color: #fff;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+.hero-container::after {
+  background-color: #333;
+  /* height: 100%;
+  width: 100%; */
+  
+}
+
+.hero-content {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.hero-content h1 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+}
+
+.hero-content p {
+  font-size: 1.2em;
+  margin-bottom: 30px;
+}
+
+.hero-content button {
+  padding: 10px 20px;
+  font-size: 1.2em;
+  background-color: #4CAF50;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.hero-content button:hover {
+  background-color: #45a049;
+}
+
+.home-page {
+  display: flex;
+  flex-direction: column;
+}
+
+.sidebar {
+  width: 50px;
+  height: 100%;
+  background-color: #333;
+  color: #fff;
+  box-sizing: border-box;
+  position: fixed;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+.main-content {
+  flex-grow: 1;
+  padding-left: 50px;
+  /* Adjust based on the sidebar width */
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+nav li {
+  margin-bottom: 15px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 1.2em;
+  transition: color 0.3s;
+}
+
+nav a:hover {
+  color: #4CAF50;
+}
+
+.sidebar-footer {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+}
+
+.sidebar-footer p {
+  font-size: 0.8em;
+}
+
+.logo {
+  padding: 10px;
+  padding-right: 3rem;
+}
+
+.nav-btn {
+  background-color: #fff;
+  padding: 6px 9px;
+  text-decoration: none;
+  margin: 5px;
+}
+
+.nav-bar {
+  display: flex;
+}
+
