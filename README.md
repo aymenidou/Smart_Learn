@@ -1,5 +1,6 @@
 #  Smart_Learn
 
+![enter image description here](home_page.png)
 
 ## About Our SmartLearn Platform
 
