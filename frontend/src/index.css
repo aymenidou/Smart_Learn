@@ -16,7 +16,7 @@ body {
   font-family: 'Arial', sans-serif;
   margin: 0;
   padding: 0;
-  background-color: #ff9900!important;
+  background-color: #ff9900 !important;
 }
 
 .header {
@@ -106,16 +106,13 @@ body {
   align-items: center;
   text-align: center;
 }
-.hero-container::after {
-  background-color: #333;
-  /* height: 100%;
-  width: 100%; */
-  
-}
 
 .hero-content {
   max-width: 800px;
   margin: 0 auto;
+  background-color: #0000004f;
+  border-radius: 15px;
+  padding: 20px;
 }
 
 .hero-content h1 {
@@ -126,6 +123,7 @@ body {
 .hero-content p {
   font-size: 1.2em;
   margin-bottom: 30px;
+  color: #fff;
 }
 
 .hero-content button {
@@ -210,4 +208,3 @@ nav a:hover {
 .nav-bar {
   display: flex;
 }
-
